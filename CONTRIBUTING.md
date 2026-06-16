@@ -17,7 +17,7 @@ We follow a standard Git workflow:
 1. **Fork** the repository.
 2. **Clone** it locally:
    ```bash
-   git clone https://github.com/yourusername/oss-license-helper.git
+   git clone https://github.com/Johanl001/oss-license-helper.git
    ```
 3. **Create a branch** for your changes:
    ```bash
@@ -30,7 +30,8 @@ We follow a standard Git workflow:
    git commit -m "docs: correct GPL compatibility matrix explanation"
    git push origin feature/cool-new-addition
    ```
-7. **Submit a Pull Request** to the main repository.
+7. **Submit a Pull Request** to [https://github.com/Johanl001/oss-license-helper](https://github.com/Johanl001/oss-license-helper).
+
 
 ## Development Style Guide
 

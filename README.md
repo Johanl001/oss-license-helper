@@ -6,7 +6,7 @@ Stop Googling "can I use GPL in my commercial app?" — just use this.
 
 **oss-license-helper** is a free, interactive tool that gives developers plain-English answers about open source licenses. No legal jargon. No paywalls. No confusion.
 
-🚀 **Live tool**: [https://yourusername.github.io/oss-license-helper](https://yourusername.github.io/oss-license-helper)
+🚀 **Live tool**: [https://johanl001.github.io/oss-license-helper](https://johanl001.github.io/oss-license-helper)
 
 ---
 
@@ -43,13 +43,13 @@ What actually happens if you violate a license? This section cuts through the fe
 ## 🚀 Quick Start
 
 ### Option 1 — Use it online (recommended)
-Just visit 👉 [https://yourusername.github.io/oss-license-helper](https://yourusername.github.io/oss-license-helper)  
+Just visit 👉 [https://johanl001.github.io/oss-license-helper](https://johanl001.github.io/oss-license-helper)  
 No install. No signup. Works on mobile.
 
 ### Option 2 — Run it locally
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/oss-license-helper.git
+git clone https://github.com/Johanl001/oss-license-helper.git
 
 # Navigate into the folder
 cd oss-license-helper
@@ -67,15 +67,17 @@ Quick-reference cards for the most common licenses:
 
 | License | Can use commercially | Must share source | Must credit author | Viral effect |
 | :--- | :---: | :---: | :---: | :---: |
-| **MIT** | ✅ | ❌ | ✅ | ❌ |
-| **Apache 2.0** | ✅ | ❌ | ✅ | ❌ |
-| **GPL-3.0** | ✅ | ✅ | ✅ | ✅ |
-| **AGPL-3.0** | ✅ | ✅ | ✅ | ✅ (network too) |
-| **MPL-2.0** | ✅ | ✅ (file-level) | ✅ | 🟡 Partial |
-| **ISC** | ✅ | ❌ | ✅ | ❌ |
-| **CC0** | ✅ | ❌ | ❌ | ❌ |
+| **[MIT](docs/cheatsheets/mit.md)** | ✅ | ❌ | ✅ | ❌ |
+| **[ISC](docs/cheatsheets/isc.md)** | ✅ | ❌ | ✅ | ❌ |
+| **[CC0](docs/cheatsheets/cc0.md)** | ✅ | ❌ | ❌ | ❌ |
+| **[Apache 2.0](docs/cheatsheets/apache.md)** | ✅ | ❌ | ✅ | ❌ |
+| **[MPL-2.0](docs/cheatsheets/mpl.md)** | ✅ | ✅ (file-level) | ✅ | 🟡 Partial |
+| **[LGPL-2.1](docs/cheatsheets/lgpl.md)** | ✅ (dynamic link) | ✅ (library only) | ✅ | 🟡 Partial |
+| **[GPL-2.0](docs/cheatsheets/gpl2.md)** | ✅ | ✅ | ✅ | ✅ |
+| **[GPL-3.0](docs/cheatsheets/gpl.md)** | ✅ | ✅ | ✅ | ✅ |
+| **[AGPL-3.0](docs/cheatsheets/agpl.md)** | ✅ | ✅ | ✅ | ✅ (network too) |
 
-Full cheatsheets with examples → [/docs/cheatsheets/](file:///c:/Users/dnitr/Desktop/COLLEGE/myProjects/license-helper/docs/cheatsheets/)
+Full cheatsheets with examples → [/docs/cheatsheets/](docs/cheatsheets/)
 
 ---
 
@@ -84,7 +86,7 @@ Full cheatsheets with examples → [/docs/cheatsheets/](file:///c:/Users/dnitr/D
 - [x] License compatibility matrix
 - [x] Decision-tree checker
 - [x] Real-world consequences guide
-- [x] License cheatsheet cards
+- [x] License cheatsheet cards (MIT, ISC, Apache 2.0, GPL-2.0, GPL-3.0, AGPL, MPL-2.0, LGPL-2.1, CC0)
 - [ ] GitHub repo scanner — paste a repo URL, get a license risk report
 - [ ] SPDX identifier lookup
 - [ ] Multi-language support (Spanish, Hindi, Portuguese)
