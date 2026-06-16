@@ -1,6 +1,8 @@
 # 🔓 oss-license-helper
 
-![OSS License Helper Hero Banner](docs/images/hero_banner.png)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Johanl001/oss-license-helper/pulls)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-blue.svg)](https://github.com/Johanl001/oss-license-helper/issues)
 
 Stop Googling "can I use GPL in my commercial app?" — just use this.
 
@@ -28,12 +30,12 @@ Answer 3 simple questions about your project:
 
 Get an instant, plain-English answer on whether you can use that license — and what you need to do if you can.
 
-![Checker Preview](docs/images/checker_preview.png)
+> **Try it live →** [johanl001.github.io/oss-license-helper](https://johanl001.github.io/oss-license-helper)
 
 ### 2. 📊 License Compatibility Matrix
 A clear visual table showing which licenses play nicely together and which ones clash. Covers MIT, GPL-2.0, GPL-3.0, Apache 2.0, AGPL, MPL, ISC, and CC0.
 
-![Matrix Preview](docs/images/matrix_preview.png)
+> Click any cell in the matrix for a plain-English explanation of the compatibility.
 
 ### 3. ⚠️ Real-World Consequences Guide
 What actually happens if you violate a license? This section cuts through the fear and explains real consequences — from a friendly email to a lawsuit — so you know what's actually at stake.
@@ -96,7 +98,7 @@ Full cheatsheets with examples → [/docs/cheatsheets/](docs/cheatsheets/)
 
 ## 🤝 Contributing
 
-This project runs on community knowledge. If you spot something wrong, want to add a license, or improve the tool — please open a PR. See [CONTRIBUTING.md](file:///c:/Users/dnitr/Desktop/COLLEGE/myProjects/license-helper/CONTRIBUTING.md) to get started.
+This project runs on community knowledge. If you spot something wrong, want to add a license, or improve the tool — please open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
 First time contributing to open source? This repo is a great place to start. Issues labelled `good first issue` are waiting for you.
 
@@ -110,4 +112,4 @@ This tool is for educational purposes only and is not legal advice. When in doub
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](file:///c:/Users/dnitr/Desktop/COLLEGE/myProjects/license-helper/LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
